@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet"href="index.css" type="text/css">
+
+    <style>
+
+.container {
+    text-align: center;
+    padding-top: 2px;
+}
+h1 {
+    margin-bottom: 10px;
+    background-color: aqua;
+    font-size: medium;
+    
+}
+img {
+    display: block;
+    margin: 20px auto;
+    width: 20%; /* adjust width as needed */
+    height: auto; /* maintains aspect ratio*/
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+}
+li {
+    margin: 0 auto;
+}
+
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+    <h1>Welcome to my first webpage</h1>
+    
+    <img src="img3.jpg"alt="my image" class="top-center-image" width="200" height="200">
+
+    <p>i'm Adeyemi kehinde, a web development enthusiast.<br> i enjoy learning new programming languages and exploring innovative technologies.<br> visit my favourite website:
+        <br>
+        <a href="www.github.com" target="_blank">Visit github</a>
+    </p>
+
+
+    <h2>My Hobbies:</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Hikking</li>
+            <li>Coding</li>
+        </ul>
+
+        <h2>My Favourite Food:</h2>
+        <table border="1">
+            <tr>
+                <th>Food</th>
+                <th>Origin</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>pizza</td>
+                <td>italy</td>
+                <td>5\5</td>
+            </tr>
+            <tr>
+                <td>sushi</td>
+                <td>japan</td>
+                <td>4.5/5</td>
+            </tr>
+            <tr>
+                <td>tacos</td>
+                <td>mexico</td>
+                <td>5/5</td>
+            </tr>
+        </table>
+        <h2>Contact Me:</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="Name" name="name"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="phone">Phone number:</label>
+            <input type="number" id="phone" name="phone"><br><br>
+            
+            <input type="checkbox" id="terms" name="terms">
+            
+            <label for="terms">i agree to the terms</label><br><br>
+
+            <input type="radio" id="male" name="gender" value="male">
+            
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            
+            <label for="female">Female</label><br><br>
+            <label for="comments">Additional comments:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="30"></textarea><br><br>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
